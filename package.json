@@ -1,0 +1,23 @@
+{
+  "name": "oneshot-shoes",
+  "version": "1.0.0",
+  "description": "---\r This GitHub repository contains all of the HTML and CSS code for the said website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marc-vel/oneshot-shoes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marc-vel/oneshot-shoes/issues"
+  },
+  "homepage": "https://github.com/marc-vel/oneshot-shoes#readme",
+  "dependencies": {
+    "bulma": "^0.9.4"
+  }
+}
