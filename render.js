@@ -18,6 +18,9 @@ document.write(`<nav class="navbar is-black" role="navigation" aria-label="main 
         <a class="navbar-item" href="https://www.kickstarter.com" target="_blank">
             KickStarter
         </a>
+        <a class="navbar-item" href="developers.html">
+            About
+        </a>
         <div class="navbar-item">
             <button class=" button is-primary" onclick="location.href='login.html'">Login</button>
         </div>
@@ -25,6 +28,7 @@ document.write(`<nav class="navbar is-black" role="navigation" aria-label="main 
 </div>
 </nav>`)
 
+//This part of the code is taken from Bulma's documentation
 document.addEventListener('DOMContentLoaded', () => {
 
     // Get all "navbar-burger" elements
