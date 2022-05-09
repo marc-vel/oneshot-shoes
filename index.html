@@ -1,40 +1,22 @@
 <!--Since the CSS framework is not included in the zip file, it is required to turn on your internet connection in order to view the styling of the website. Thank you.-->
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css"><!--Use this if your offline, can't ensure it'll work though (remove the comment tags first)-->
-        <title>Home | OneShot Sneakers</title>
-        <script src="navbar.js"></script>
-    </head>
 
-    <body>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item">
-                    <img src="images/logos/OneShotSneakersLight.png">
-                </a>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <!--Use this if your offline, can't ensure it'll work though (remove the comment tags first)-->
+    <title>Home | OneShot Sneakers</title>
+</head>
 
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
+<body>
+    <script src="render.js"></script>
+    <section class="hero has-background-black is-fullheight">
+            <div>
+                <img src="oneshot_sneakers_indexbanner.png">
             </div>
-            <div class="navbar-menu" id="navMenu">
-                <div class="navbar-end">
-                    <a class="navbar-item">
-                        Home
-                    </a>
-                    <a class="navbar-item">
-                        Products
-                    </a>
-                    <a class="navbar-item">
-                        <button class=" button is-primary">Login</button>
-                    </a>
-                </div>
-            </div>
-        </nav>
-    </body>
+    </section>
+</body>
+
 </html>
