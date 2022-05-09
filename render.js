@@ -1,7 +1,7 @@
-document.write(`<nav class="navbar has-background-white" role="navigation" aria-label="main navigation">
+document.write(`<nav class="navbar is-black" role="navigation" aria-label="main navigation">
 <div class="navbar-brand">
     <div class="navbar-item">
-        <img src="OneShotSneakersLight.png"></img>
+        <img src="OneShotSneakersDark.png"></img>
     </div>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
