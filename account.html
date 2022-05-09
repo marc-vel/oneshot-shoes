@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bulma.css">
     <!--Use this if your offline, can't ensure it'll work though (remove the comment tags first)-->
-    <title>Personal Information | OneShot Sneakers</title>
+    <title>Account Information | OneShot Sneakers</title>
     <link rel="stylesheet" href="og-style.css">
 </head>
 
@@ -18,8 +18,8 @@
                     Account
                 </p>
                 <ul class="menu-list">
-                    <li><a class="is-active">Personal Information</a></li>
-                    <li><a href="account.html">Account Information</a></li>
+                    <li><a href="info.html">Personal Information</a></li>
+                    <li><a class="is-active">Account Information</a></li>
                 </ul>
                 <hr>
                 <p class="menu-label">KickStarter</p>
@@ -28,26 +28,26 @@
                 </ul>
             </aside>
         </div>
+
         <div class="column">
             <div class="box">
-                <h3 class="title is-3">Personal Information</h3> <!--This is the Add Information section of the final requirement.-->
+                <div class="block">
+                    <h3 class="title is-3">Account Information</h3>
+                    <!--This is the Edit Information part of the final requirement.-->
+                </div>
                 <form>
                     <div class="block">
-                        <label class="label">Account Name</label>
-                        <input type="text" class="input" placeholder="jon_though01">
+                        <label class="label">Email</label>
+                        <input type="email" placeholder="tagpuno.sean@dummy.com" class="input">
                     </div>
+                    <hr>
                     <div class="block">
-                        <label class="label">Real Name</label>
-                        <input type="text" class="input" placeholder="John Doe">
+                        <h3 class="title is-3">Change Password</h3>
+                        <label class="label">Old Password</label>
+                        <input class="input" type="password" value="magtanggol">
+                        <label class="label">New Password</label>
+                        <input class="input" type="password">
                     </div>
-                    <div class="block">
-                        <label class="label">Address</label>
-                        <textarea class="textarea"></textarea>
-                    </div>
-                    <div class="buttons">
-                        <button class="button is-primary" type="submit">Save</button>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
