@@ -8,18 +8,35 @@
     <link rel="stylesheet" href="bulma.css">
     <!--Use this if your offline, can't ensure it'll work though (remove the comment tags first)-->
     <title>Home | OneShot Sneakers</title>
-    <script>
-        alert("This website does not scale well with mobile devices. Please use a desktop to view this website. Thank you.");
-    </script>
+    <style>
+        .banner-content {
+            text-align: center;
+        }
+
+        .white-text-og {
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
     <script src="render.js"></script>
-    <section class="hero has-background-black is-fullheight">
-            <div>
-                <img src="oneshot_sneakers_indexbanner.png">
+    <section class="hero has-background-black is-fullscreen">
+        <div>
+            <img src="oneshot_sneakers_indexbanner.png">
+        </div>
+        <div class="columns">
+            <div class="column">
+                <br><br><br>
+                <h3 class="title is-3 white-text-og banner-content">Get shoes internationally</h3>
+                <h5 class="subtitle is-5 white-text-og banner-content">Use our mobile app or web application to get your shoes.</h5>
             </div>
+            <div class="column">
+                <br><br>
+                <h3 class="title is-3 white-text-og banner-content">Support the project on Kickstarter!</h3>
+                <a href="https://kickstarter.com"><img src="icons8-kickstarter-k-logo-online-crowdfunding-web-portal-96.png" style="padding-left: 45%;"></a>
+            </div>
+        </div>
     </section>
 </body>
-
 </html>

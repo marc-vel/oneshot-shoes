@@ -6,48 +6,52 @@
     <link rel="stylesheet" href="bulma.css">
     <!--Use this if your offline, can't ensure it'll work though (remove the comment tags first)-->
     <title>Personal Information | OneShot Sneakers</title>
-    <link rel="stylesheet" href="og-style.css">
+    <link rel="stylesheet" href="og-style.css"><!--The CSS code that we ourselves wrote, because Bulma CSS can screw with some things from time to time-->
 </head>
 
 <body>
     <script src="render.js"></script>
-    <div class="columns account-page is-mobile">
-        <div class="column is-one-quarter">
-            <aside class="menu">
-                <p class="menu-label">
-                    Account
-                </p>
-                <ul class="menu-list">
-                    <li><a class="is-active">Personal Information</a></li>
-                    <li><a href="account.html">Account Information</a></li>
-                </ul>
-                <hr>
-                <p class="menu-label">KickStarter</p>
-                <ul class="menu-list">
-                    <li><a href="status.html">Check Status</a></li>
-                </ul>
-            </aside>
-        </div>
-        <div class="column">
-            <div class="box">
-                <h3 class="title is-3">Personal Information</h3> <!--This is the Add Information section of the final requirement.-->
-                <form>
-                    <div class="block">
-                        <label class="label">Account Name</label>
-                        <input type="text" class="input" placeholder="jon_though01">
-                    </div>
-                    <div class="block">
-                        <label class="label">Real Name</label>
-                        <input type="text" class="input" placeholder="John Doe">
-                    </div>
-                    <div class="block">
-                        <label class="label">Address</label>
-                        <textarea class="textarea"></textarea>
-                    </div>
-                    <div class="buttons">
-                        <button class="button is-primary" type="submit">Save</button>
-                    </div>
-                </form>
+    <div class="block">
+        <div class="columns account-page is-mobile">
+            <div class="column is-one-quarter">
+                <aside class="menu">
+                    <p class="menu-label">
+                        Account
+                    </p>
+                    <ul class="menu-list">
+                        <li><a class="is-active">Personal Information</a></li>
+                        <li><a href="account.html">Account Information</a></li>
+                    </ul>
+                    <hr>
+                    <p class="menu-label">KickStarter</p>
+                    <ul class="menu-list">
+                        <li><a href="status.html">Check Status</a></li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <h3 class="title is-3">Personal Information</h3>
+                    <!--This is the Add Information section of the final requirement.-->
+                    <form>
+                        <div class="block">
+                            <label class="label">Account Name</label>
+                            <input type="text" class="input" placeholder="jon_though01">
+                        </div>
+                        <div class="block">
+                            <label class="label">Real Name</label>
+                            <input type="text" class="input" placeholder="John Doe">
+                        </div>
+                        <div class="block">
+                            <label class="label">Address</label>
+                            <textarea class="textarea"></textarea>
+                        </div>
+                        <div class="buttons">
+
+                            <button class="button is-primary" type="submit">Save</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
